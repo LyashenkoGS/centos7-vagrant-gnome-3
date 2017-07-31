@@ -1,17 +1,10 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-# All Vagrant configuration is done below. The "2" in Vagrant.configure
-# configures the configuration version (we support older styles for
-# backwards compatibility). Please don't change it unless you know what
-# you're doing.
-Vagrant.configure("2") do |config|
-  # The most common configuration options are documented and commented below.
-  # For a complete reference, please see the online documentation at
-  # https://docs.vagrantup.com.
 
-  # Every Vagrant development environment requires a box. You can search for
-  # boxes at https://vagrantcloud.com/search.
+Vagrant.configure("2") do |config|
+
+
   config.vm.box = "boxcutter/centos72-desktop"
 
   # Disable automatic box update checking. If you disable this, then
@@ -45,10 +38,7 @@ Vagrant.configure("2") do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
 
-  # Provider-specific configuration so you can fine-tune various
-  # backing providers for Vagrant. These expose provider-specific options.
-  # Example for VirtualBox:
-  #
+
   # config.vm.provider "virtualbox" do |vb|
   #   # Display the VirtualBox GUI when booting the machine
   #   vb.gui = true
@@ -56,17 +46,17 @@ Vagrant.configure("2") do |config|
   #   # Customize the amount of memory on the VM:
   #   vb.memory = "1024"
   # end
-  #
-  # View the documentation for the provider you are using for more
-  # information on available options.
 
-  # Enable provisioning with a shell script. Additional provisioners such as
-  # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
-  # documentation for more information about their specific syntax and use.
    config.vm.provision "shell", inline: <<-SHELL
-
+    sudo yum update -y
     sudo yum install -y git
-    wget   https://download.jetbrains.com/cpp/CLion-2017.2.tar.gz
+    sudo yum groupinstall -y 'Development Tools'
+    sudo yum install -y  bash-completion
+    sudo yum -i install man-pages
+ #install CLion
+    wget   https://download.jetbrains.com/cpp    /CLion-2017.2.tar.gz
+    tar -xvzf CLion-2017.2.tar.gz
+    sudo mv clion-2017.2/ /opt/
 
    SHELL
 end
