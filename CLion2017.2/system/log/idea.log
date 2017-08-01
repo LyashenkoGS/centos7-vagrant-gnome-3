@@ -1,0 +1,57 @@
+2017-08-01 21:27:03,346 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-08-01 21:27:03,348 [      2]   INFO -        #com.intellij.idea.Main - IDE: CLion (build #CL-172.3317.49, 11 Jul 2017 13:59) 
+2017-08-01 21:27:03,348 [      2]   INFO -        #com.intellij.idea.Main - OS: Linux (3.10.0-514.26.2.el7.x86_64, amd64) 
+2017-08-01 21:27:03,349 [      3]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b5 (JetBrains s.r.o) 
+2017-08-01 21:27:03,349 [      3]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b5 (OpenJDK 64-Bit Server VM) 
+2017-08-01 21:27:03,352 [      6]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/home/vagrant/clion-2017.2/lib/boot.jar -Xss2m -Xms256m -Xmx2000m -XX:NewSize=128m -XX:MaxNewSize=128m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/vagrant/java_error_in_CL_%p.log -XX:HeapDumpPath=/home/vagrant/java_error_in_CL.hprof -Didea.paths.selector=CLion2017.2 -Djb.vmOptionsFile=/home/vagrant/clion-2017.2/bin/clion64.vmoptions -Didea.platform.prefix=CLion 
+2017-08-01 21:27:03,352 [      6]   INFO -        #com.intellij.idea.Main - ext: /home/vagrant/clion-2017.2/jre64/lib/ext: [cldrdata.jar, dnsns.jar, jaccess.jar, jfxrt.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunpkcs11.jar, zipfs.jar] 
+2017-08-01 21:27:03,352 [      6]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-08-01 21:27:03,382 [     36]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 28 ms 
+2017-08-01 21:27:18,688 [  15342]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-08-01 21:27:18,692 [  15346]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-js-support.xml 
+2017-08-01 21:27:19,797 [  16451]   INFO -        #com.jetbrains.cidr.cpp - Executing CMake: /home/vagrant/clion-2017.2/bin/cmake/bin/cmake -G "Unix Makefiles" /tmp/cmake_check_environment 
+2017-08-01 21:27:20,817 [  17471]   INFO -        #com.jetbrains.cidr.cpp - CMake exit code: 0 for command: /home/vagrant/clion-2017.2/bin/cmake/bin/cmake -G "Unix Makefiles" /tmp/cmake_check_environment 
+2017-08-01 21:27:26,810 [  23464]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2017-08-01 21:27:26,812 [  23466]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-08-01 21:27:26,980 [  23634]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-08-01 21:27:26,983 [  23637]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor intellilang-js-support.xml 
+2017-08-01 21:27:27,149 [  23803]   INFO - llij.ide.plugins.PluginManager - 26 plugins initialized in 270 ms 
+2017-08-01 21:27:27,162 [  23816]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CSS Support (172.3317.49), CVS Integration (11), CoffeeScript (2.0), Git Integration (8.1), GitHub (172.3317.49), HTML Tools (2.0), IDEA CORE (172.3317.49), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Less support (172.3317.49), Perforce Integration (2.0), PyCharm Community Edition for CLion (172.3317.49), REST Client (172.3317.49), Remote Hosts Access (0.1), Sass support (172.3317.49), Settings Repository (172.3317.49), Stylus support (999.999), Subversion Integration (1.1), TFS Integration (999.999), Task Management (1.0), Terminal (0.1), Time Tracking (1.0), XPathView + XSLT Support (4), YAML (172.3317.49), hg4idea (10.0) 
+2017-08-01 21:27:27,762 [  24416]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/vagrant/.CLion2017.2/system/caches/names.dat' does not exist 
+2017-08-01 21:27:27,764 [  24418]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1967 
+2017-08-01 21:27:27,828 [  24482]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /home/vagrant/clion-2017.2/bin/fsnotifier64 
+2017-08-01 21:27:27,831 [  24485]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-08-01 21:27:28,296 [  24950]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2017-08-01 21:27:28,296 [  24950]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2017-08-01 21:27:28,491 [  25145]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-08-01 21:27:28,580 [  25234]   INFO - tellij.ide.SystemHealthMonitor - issue detected: ibus.blocking.warn.message 
+2017-08-01 21:27:28,658 [  25312]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-08-01 21:27:28,671 [  25325]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-08-01 21:27:28,890 [  25544]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:158 
+2017-08-01 21:27:28,899 [  25553]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:8 
+2017-08-01 21:27:29,084 [  25738]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:180 
+2017-08-01 21:27:29,085 [  25739]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2017-08-01 21:27:29,155 [  25809]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-08-01 21:27:29,697 [  26351]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.unittestLegacy.PythonUnitTestConfigurationProducer@44c86dd9 
+2017-08-01 21:27:29,701 [  26355]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.pytestLegacy.PyTestConfigurationProducer@207e1a5 
+2017-08-01 21:27:29,701 [  26355]   INFO -            PyTestLegacyInterop - Disabling com.jetbrains.python.testing.nosetestLegacy.PythonNoseTestConfigurationProducer@6f7861bb 
+2017-08-01 21:27:29,763 [  26417]   INFO - .intellij.idea.IdeaApplication - App initialization took 31435 ms 
+2017-08-01 21:27:30,269 [  26923]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 234 ms 
+2017-08-01 21:27:30,350 [  27004]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:Python,JavaScript,XML,LLDBCommands,CoffeeScript,JSX Harmony,Literate CoffeeScript,TypeScript JSX,TypeScript,SCSS,Flow,ECMAScript 6,Sass,HTML,CSS,ActionScript,Less,GDBCommands,PythonStub,Stylus 
+2017-08-01 21:27:31,246 [  27900]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@50231d72 
+2017-08-01 21:27:31,716 [  28370]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@2ac115ec 
+2017-08-01 21:27:32,034 [  28688]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@71908d0c 
+2017-08-01 21:27:32,114 [  28768]   INFO - pl$FileIndexDataInitialization - Initialization done:3214 
+2017-08-01 21:27:33,760 [  30414]   INFO - exImpl$StubIndexInitialization - Initialization done:1646 
+2017-08-01 21:27:34,666 [  31320]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2017-08-01 21:27:34,675 [  31329]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2017-08-01 21:27:34,675 [  31329]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2017-08-01 21:27:35,521 [  32175]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2017-08-01 21:27:35,523 [  32177]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-08-01 21:27:35,525 [  32179]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2017-08-01 21:27:35,539 [  32193]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2017-08-01 21:27:35,542 [  32196]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2017-08-01 21:27:35,563 [  32217]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2017-08-01 21:27:35,566 [  32220]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2017-08-01 21:27:35,571 [  32225]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

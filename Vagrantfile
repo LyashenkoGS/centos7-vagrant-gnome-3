@@ -32,20 +32,14 @@ Vagrant.configure("2") do |config|
   # your network.
   # config.vm.network "public_network"
 
-  # Share an additional folder to the guest VM. The first argument is
-  # the path on the host to the actual folder. The second argument is
-  # the path on the guest to mount the folder. And the optional third
-  # argument is a set of non-required options.
-  # config.vm.synced_folder "../data", "/vagrant_data"
+   #sync CLion settings
+   config.vm.synced_folder "CLion2017.2", "/home/vagrant/.CLion2017.2"
 
 
-  # config.vm.provider "virtualbox" do |vb|
-  #   # Display the VirtualBox GUI when booting the machine
-  #   vb.gui = true
-  #
-  #   # Customize the amount of memory on the VM:
-  #   vb.memory = "1024"
-  # end
+  config.vm.provider "virtualbox" do |vb|
+     vb.memory = "4024"
+     vb.cpus = "4"
+   end
 
    config.vm.provision "shell", inline: <<-SHELL
     sudo yum update -y
